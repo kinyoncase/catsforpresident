@@ -96,6 +96,19 @@ body{
 
 
 }
+.refpara{
+    margin: 0;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 24pt;
+    height: auto;
+    width: 100%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 10pt;
+
+}
 .navbar{
     margin: 0;
     padding: 0;
@@ -143,4 +156,40 @@ label{
     cursor: default;
 }
 .about1{
+}
+
+.refgrid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+
+}
+.refgrid div{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24pt;
+    padding-left: 1%;
+
+}
+
+.refpic{
+    padding: 2%;
+    margin: 1%;
+    text-align: center;
+    background-color: white;
+}
+
+.refpic img{
+    max-height: auto;
+    max-width: 75%;
+    object-fit:scale-down;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+
+
 }
